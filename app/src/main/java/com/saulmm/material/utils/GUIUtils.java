@@ -3,11 +3,8 @@ package com.saulmm.material.utils;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.graphics.Outline;
-import android.transition.Explode;
 import android.transition.Fade;
-import android.transition.Slide;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.ViewPropertyAnimator;
@@ -24,7 +21,7 @@ public class GUIUtils {
 
         Fade ex = new Fade();
         ex.setInterpolator(new PathInterpolator(0.4f, 0, 1, 1));
-        ex.setDuration(5000);
+        ex.setDuration(1000);
         w.setExitTransition(ex);
         w.setEnterTransition(ex);
     }

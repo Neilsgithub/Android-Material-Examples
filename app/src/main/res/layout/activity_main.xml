@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        />
+
+    <Button
+        android:id="@+id/btn_dialer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialer"
+        />
+
+    <Button
+        android:id="@+id/btn_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elevation"
+        />
+
+    <Button
+        android:id="@+id/btn_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sliding"
+        />
+
+    <Button
+        android:id="@+id/btn_transition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transition"
+        />
+</LinearLayout>
